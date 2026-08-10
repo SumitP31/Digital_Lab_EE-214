@@ -1,6 +1,6 @@
-# Digital Circuits LAB (EE-214) : TA Solutions
+# Digital Circuits LAB (EE-214) : TA Solutions for VHDL code
 
-## Week 1: VHDL code for gates using only NAND gates
+## Week 1: Gates using only NAND gates
 1. AND Gate
 2. OR Gate
 3. XOR Gate
