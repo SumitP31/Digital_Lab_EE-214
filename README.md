@@ -8,6 +8,6 @@
 5. Full Adder
 
 ## Week 2: 
-1) 4-to-2 Encoder with Enable
-2) 4-to-2 Priority Encoder
-3) 8-to-3 Encoder using 4-to-2 Encoder with Enable
+1. 4-to-2 Encoder with Enable
+2. 4-to-2 Priority Encoder
+3. 8-to-3 Encoder using 4-to-2 Encoder with Enable
