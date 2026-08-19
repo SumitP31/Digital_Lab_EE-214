@@ -26,3 +26,17 @@ svf PATH_TO_svf/filename.svf progress
 ## Week 4: Universal Rotator and Scanchain.
 1. Universal Rotator for 8-bit input
 2. Board implementation using scanchain. Scan chain provides virtual input outputs to the board.
+> Copy all contents of ```Scan_Chain_Files``` into your project folder
+> Set Top_level.vhdl as Top level entity
+> dump .svf file on MAX10 board
+> Run this command in terminal when inside your project folder
+```cli
+python -m vevn .venv
+.venv/Script/activate.bat
+pip install bitarray bitstring ftd2xx
+```
+> After Installation Run 
+```cli
+scan_vjtag.exe TRACEFILE.txt out.txt
+```
+3. Open the out.txt file to check results
