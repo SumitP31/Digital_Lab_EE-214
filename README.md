@@ -12,7 +12,7 @@
 2. 4-to-2 Priority Encoder
 3. 8-to-3 Encoder using 4-to-2 Encoder with Enable
 
-## Week 3:
+## Week 3: URJtag
 1. Fibonacci Sequence Detector.
 2. Interfacing input and output pins with the FPGA board
 3. Uploading Code to MAX 10 board
@@ -23,3 +23,6 @@ cable ft2232
 detect
 svf PATH_TO_svf/filename.svf progress  
 ```
+## Week 4: Universal Rotator and Scanchain.
+1. Universal Rotator for 8-bit input
+2. Board implementation using scanchain. Scan chain provides virtual input outputs to the board.
