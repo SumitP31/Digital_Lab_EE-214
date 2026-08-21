@@ -40,3 +40,18 @@ pip install bitarray bitstring ftd2xx
 scan_vjtag.exe TRACEFILE.txt out.txt
 ```
 3. Open the out.txt file to check results
+
+## VLSI Design code
+``` cli
+extract all
+ext2spice lvs
+ext2spice -d -o invx1_layout.spice
+```
+second part
+```cli
+extract all
+ext2spice scale off
+ext2spice cthresh 0
+ext2spice rthresh 0
+ext2spice -d -o invx1_pex.spice
+```
