@@ -49,4 +49,8 @@ pip install bitarray bitstring ftd2xx
 ```cli
 scan_vjtag.exe TRACEFILE.txt out.txt
 ```
+or 
+```cli
+python scan_vjtag.py TRACEFILE.txt out.txt
+```
 3. Open the out.txt file to check results.
