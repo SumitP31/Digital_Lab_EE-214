@@ -34,7 +34,9 @@ svf PATH_TO_svf/filename.svf progress
 
    
    > Set Top_level.vhdl as Top level entity, Change the number of inputs and outputs to the design same as Testbench.
-  
+   
+   > Pin Planning is not needed.
+   
    > dump .svf file on MAX10 board
   
    > Run this command in terminal when inside your project folder
