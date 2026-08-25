@@ -28,7 +28,12 @@ svf PATH_TO_svf/filename.svf progress
 2. Board implementation using scanchain. Scan chain provides virtual input outputs to the board.
    > Copy all contents of ```Scan_Chain_Files``` into your project folder.
    
-   > Set Top_level.vhdl as Top level entity
+   > Add the following files in the path: v_jtag\synthesis:
+      - v_jatg.vhd
+      - v_jtag.qip 
+
+   
+   > Set Top_level.vhdl as Top level entity, Change the number of inputs and outputs to the design same as Testbench.
   
    > dump .svf file on MAX10 board
   
